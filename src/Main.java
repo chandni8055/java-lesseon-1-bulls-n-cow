@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -8,5 +9,7 @@ public class Main {
                 "\n Here B means one of your guessing number is inside the hidden number and in the right place"
                 + "\n Here C means one of your guessing number is inside the hidden number and in the Wrong place ");
 
+        Random random = new Random();
+        int intRandom = random.nextInt(99);
     }
 }
